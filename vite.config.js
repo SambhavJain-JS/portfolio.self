@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/Portfolio-Self/',
   plugins: [react()],
   build: {
+    base: './', 
     outDir: 'dist',
     assetsDir: 'assets',
     emptyOutDir: true,

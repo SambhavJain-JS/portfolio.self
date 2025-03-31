@@ -12,17 +12,37 @@ export default function Experience() {
         "Facilitated communication between students and TechFest organizers to address queries and participation",
       ],
       company: "TechFest, IIT Bombay",
-      location: "Mumbai",
-      duration: "Aug 2024 - jnuary 2025",
+      location: " ",
+      duration: "Aug 2024 - January 2025",
       skills: [ "Event Promotion",
-    "Public Speaking",
-    "Social Media Management",
-    "Networking",
-    "Leadership",
-    "Team Coordination" ]
+                "Public Speaking",
+                "Social Media Management",
+                "Networking",
+                "Leadership",
+                "Team Coordination" ]
     },
     {
       id: 2,
+      title: "Organizer - Robotics Workshop",
+      description: [
+        "Organized a workshop on robotics at Avantika University",
+        "In Collaboration with TechFest, IIT Bombay",
+        "Brought together students from various disciplines to learn about robotics",
+        "Received positive feedback from participants and faculty"
+      ],
+      
+      company: "Robotics Club",
+      location: "Avantika University, Ujjain",
+      duration: "25 September 2024",
+      skills: ["Event Management",
+                "Workshop Coordination",
+                "Public Speaking",
+                "Team Leadership",
+                "Networking",
+                "Technical Skills"]
+    },
+    {
+      id: 3,
       title: "MSME Presentation",
       description: [
         "Presented the Smart Medicine Box project to MSME officials, highlighting its impact on healthcare",

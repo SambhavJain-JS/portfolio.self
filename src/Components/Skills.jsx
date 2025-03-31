@@ -1,7 +1,9 @@
 import React from "react";
-import { FaServer, FaRobot, FaCode, FaMicrochip, FaTools, FaLaptopCode } from "react-icons/fa";
-import { SiCplusplus, SiPython, SiArduino, SiEspressif, SiGit, SiAutodesk } from "react-icons/si";
-import { IoHardwareChip } from "react-icons/io5";
+import { FaServer, FaRobot, FaCode, FaMicrochip, FaTools, FaLaptopCode, FaReact } from "react-icons/fa";
+// import { FaFlutter } from "react-icons/fa6";
+import { SiCplusplus, SiPython, SiArduino, SiGit, SiAutodesk, SiJavascript, SiFlutter  } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
+
 import { MdDeveloperBoard } from "react-icons/md";
 import SkillCard from "./SkillCard";
 
@@ -28,12 +30,14 @@ export default function Skills() {
                 Programming Languages
               </h2>
               <div className="grid grid-cols-2 gap-6">
-                <SkillCard icon={<SiCplusplus />} name="C++" level="Advanced" />
-                <SkillCard icon={<SiPython />} name="Python" level="Advanced" />
+                <SkillCard icon={<SiCplusplus />} name="C/C++" level="Advanced" />
+                <SkillCard icon={<SiPython />} name="Python" level="Intermediate" />
                 <SkillCard icon={<FaCode />} name="HTML & CSS" level="Intermediate" />
-                <SkillCard icon={<SiArduino />} name="Arduino" level="Advanced" />
-                <SkillCard icon={<SiEspressif />} name="ESP32" level="Advanced" />
-                <SkillCard icon={<IoHardwareChip />} name="Embedded C" level="Advanced" />
+                <SkillCard icon={<SiJavascript  />} name="Java Script" level="Intermediate" />
+                <SkillCard icon={<FaReact />} name="React-JS" level="Intermediate" />
+                {/* <SkillCard icon={<SiArduino />} name="Arduino Language" level="Advanced" /> */}
+                {/* <SkillCard icon={<SiEspressif />} name="ESP32 Language" level="Advanced" /> */}
+                {/* <SkillCard icon={<IoHardwareChip />} name="Embedded C" level="Intermediate" /> */}
               </div>
             </div>
 
@@ -46,9 +50,11 @@ export default function Skills() {
               </h2>
               <div className="grid grid-cols-2 gap-6">
                 <SkillCard icon={<FaRobot />} name="IoT Systems" level="Advanced" />
-                <SkillCard icon={<MdDeveloperBoard />} name="Digital Electronics" level="Advanced" />
-                <SkillCard icon={<FaServer />} name="Embedded Systems" level="Advanced" />
+                <SkillCard icon={<MdDeveloperBoard />} name="Digital Electronics" level="Basic" />
+                <SkillCard icon={<FaServer />} name="Embedded Systems" level="Intermidiate" />
                 <SkillCard icon={<FaCode />} name="DSA" level="Intermidiate" />
+                <SkillCard icon={<DiMysql />} name="MySQL" level="Basic" />
+                <SkillCard icon={<SiFlutter   />} name="Flutter" level="Basic" />
               </div>
             </div>
           </div>
@@ -61,15 +67,17 @@ export default function Skills() {
               Tools & Technologies
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <SkillCard icon={<SiArduino />} name="Arduino IDE" level="Advanced" />
-              <SkillCard icon={<FaCode />} name="PlatformIO" level="Advanced" />
-              <SkillCard icon={<IoHardwareChip />} name="RFID Sensors" level="Advanced" />
-              <SkillCard icon={<FaMicrochip />} name="HC-05 Module" level="Advanced" />
-              <SkillCard icon={<FaTools />} name="L298 Driver" level="Advanced" />
-              <SkillCard icon={<MdDeveloperBoard />} name="I2C LCD" level="Advanced" />
-              <SkillCard icon={<SiGit />} name="Git" level="Intermediate" />
+              {/* <SkillCard icon={<IoHardwareChip />} name="RFID Sensors" level="Advanced" /> */}
+              {/* <SkillCard icon={<FaMicrochip />} name="HC-05 Module" level="Advanced" /> */}
+              {/* <SkillCard icon={<FaTools />} name="L298 Driver" level="Advanced" /> */}
+              {/* <SkillCard icon={<MdDeveloperBoard />} name="I2C LCD" level="Advanced" /> */}
+              {/* <SkillCard icon={<FaCode />} name="NeoPixel LEDs" level="Advanced" /> */}
+
+              <SkillCard icon={<SiArduino />} name="Arduino" level="Advanced" />
+              <SkillCard icon={<FaMicrochip  />} name="ESP-32" level="Advanced" />
+              <SkillCard icon={<SiArduino />} name="Arduino IoT Cloud" level="Intermediate" />
+              <SkillCard icon={<SiGit />} name="Git/GitHub" level="Intermediate" />
               <SkillCard icon={<SiAutodesk />} name="Fusion360" level="Intermediate" />
-              <SkillCard icon={<FaCode />} name="NeoPixel LEDs" level="Advanced" />
             </div>
           </div>
         </div>

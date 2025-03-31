@@ -46,7 +46,7 @@ export default function Projects() {
         title: "Smart Medicine Box",
         description: "Built a medicine reminder system with alerts using Arduino/ESP32 for elderly users.",
         image: box,
-        technologies: ["Arduino", "ESP32", "Buzzer", "LEDs"],
+        technologies: ["ESP32", "Buzzer", "LEDs"],
         category: "embedded-iot",
         githubLink: "#",
         liveLink: "#"
@@ -91,7 +91,7 @@ export default function Projects() {
         title: "Portfolio Website",
         description: "Developed a personal portfolio website showcasing projects and technical expertise.",
         image: portImage,
-        technologies: ["React", "Tailwind CSS", "JavaScript"],
+        technologies: ["React", "Tailwind CSS", "GitHub Pages"],
         category: "web-app",
         githubLink: "#",
         liveLink: "#"
@@ -100,7 +100,7 @@ export default function Projects() {
         title: "Student Activity Tracker",
         description: " Designed a database management system for tracking student activities and performance.",
         image: dbms,
-        technologies: ["MySQL", "PHP", "DBMS"],
+        technologies: ["MySQL", "Tkinter", "DBMS"],
         category: "dbms",
         githubLink: "#",
         liveLink: "#"
@@ -176,7 +176,7 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="flex items-center justify-end gap-8 pt-6 border-t border-gray-800">
+                {/* <div className="flex items-center justify-end gap-8 pt-6 border-t border-gray-800">
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-3 group/link">
                     <FaGithub className="text-2xl group-hover/link:text-blue-400" />
                     <span className="text-sm font-medium">Code</span>
@@ -185,7 +185,7 @@ export default function Projects() {
                     <FaExternalLinkAlt className="text-xl group-hover/link:text-blue-400" />
                     <span className="text-sm font-medium">Demo</span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
